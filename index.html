@@ -3,45 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>charity: water - With just $10, Hope Flows</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
+    <!-- Header with logo -->
+    <header class="header">
+        <div class="header-content">
+            <!-- charity: water logo image -->
+            <a href="#" class="logo">
+                <img src="img/charitywater_logo_horizontal_WhiteText.png" alt="charity: water" class="logo-image">
+            </a>
+            <!-- Donate button in header -->
+            <a href="#donate" class="header-donate-btn">💧</a>
+        </div>
+    </header>
+
+    <!-- Main Hero Section: Matches the Canva design -->
     <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+        <!-- Content container for text and image layout -->
+        <div class="hero-content">
+            <!-- Text content on the right side -->
+            <div class="hero-text">
+                <!-- Main headline matching the design -->
+                <h1>With just $10, Hope Flows.</h1>
+                <!-- Transparency message -->
+                <p class="transparency-text">
+                    We use 100% of your donations to fund our clean water projects—with real-time updates, photos, and GPS to see your impact every step of the way. Giving back has never been this crystal clear.
+                </p>
+                <!-- Large donate button -->
+                <a href="#donate" class="donate-today-btn">DONATE TODAY</a>
+            </div>
+            <!-- Hero image on the left side -->
+            <div class="hero-image">
+                <!-- Person holding glass of water - placeholder image for now -->
+                <img src="https://cdn2.dropmarkusercontent.com/52043/4ce0a01bb6564a8cbf315ba96243aa34c0a7dbe117d97ec7ab53f2289ef02e04/preview/Zimbabwe_2022_CG-8012.jpg?Expires=1751859105&Signature=aBpqAfJRhzEDFFKFAm8J7~~TxHPj~cLLI~nI7rRk1rUyK6zDU-BH7lrAIIZpR4U8Ub1P13kfUjaGKMHOKvrQ~4rTLKkO7GuknOi5tRChaeGIosJDEIg7I33hFlX6aR25~D7gm9Aldr2Py3VZ5YkQSCnxC5edMhQUNCF8eCQkBPaz6s-3CTTDAuKKhOnbQoSyPHMJy9syt-OUCs8Les74IqHdYzVhs2z4Bmu-eNQne6tfPoLuBdeygbtJ2gHOWmu0OiiPttGtR7kdNmhyGRA8VjrU~6l5wzE0WLItRrPCc~20inPt6rSaG8R1GsDOkfTNCVP-KBPACCjNo6xnItCH~A__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ" alt="Young person holding a glass of clean water" class="main-hero-image">
+            </div>
+        </div>
     </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
+    <!-- Impact Story Section -->
     <section class="story">
-        <h2>Our Story</h2>
+        <h2>The Water Crisis</h2>
         <p>
-         
+            771 million people lack access to clean water. That's 1 in 10 people on the planet. For these communities, waterborne diseases are a leading cause of death, and time spent walking for water means time away from school, work, and family.
+        </p>
     </section>
 
     <!-- Real-World Impact Story Section -->
     <section class="impact-story">
         <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
+        <h2>Real Impact: Meet Sarah</h2>
         <!-- Container for image and text -->
         <div class="impact-content">
             <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
+            <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=600&q=80" alt="Sarah smiling with clean water" class="impact-image">
             <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+            <div class="impact-text">
+                <p>
+                    Sarah used to walk 4 hours every day to collect water for her family. The water wasn't even clean. Thanks to supporters like you, her village now has a clean water well just minutes from her home.
+                </p>
+                <p>
+                    <strong>Today, Sarah goes to school and dreams of becoming a teacher.</strong>
+                </p>
+            </div>
         </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <!-- Final Call-to-Action Section -->
+    <section class="call-to-action" id="donate">
+        <h2>Your $10 Can Change Everything</h2>
+        <p>Every dollar goes directly to providing clean water. See exactly where your money goes with photos, GPS coordinates, and real-time updates.</p>
+        <a href="#" class="donate-button">START YOUR IMPACT TODAY</a>
+        
+        <!-- Trust indicators -->
+        <div class="trust-indicators">
+            <p class="trust-text">✓ 100% of donations fund water projects</p>
+            <p class="trust-text">✓ Real-time project updates</p>
+            <p class="trust-text">✓ See your exact impact with GPS</p>
+        </div>
     </section>
 </body>
 </html>
